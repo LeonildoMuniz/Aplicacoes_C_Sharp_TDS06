@@ -1,0 +1,11 @@
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\bin\Debug\CRUDSQL2022.exe.config
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\bin\Debug\CRUDSQL2022.exe
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\bin\Debug\CRUDSQL2022.pdb
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.FormCrud.resources
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.Properties.Resources.resources
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.exe
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\obj\Debug\CRUDSQL2022.pdb
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\bin\Debug\DBPessoa.mdf
+C:\Users\Aluno\Desktop\PROJETO\CRUDSQL2022\CRUDSQL2022\bin\Debug\DBPessoa_log.ldf
