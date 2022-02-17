@@ -1,0 +1,14 @@
+C:\ws-visualstudeo\CrudEx01\CrudEx01\bin\Debug\CrudEx01.exe.config
+C:\ws-visualstudeo\CrudEx01\CrudEx01\bin\Debug\CrudEx01.exe
+C:\ws-visualstudeo\CrudEx01\CrudEx01\bin\Debug\CrudEx01.pdb
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.csproj.AssemblyReference.cache
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.csproj.SuggestedBindingRedirects.cache
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.Properties.Resources.resources
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.csproj.GenerateResource.cache
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.csproj.CoreCompileInputs.cache
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.exe
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.pdb
+C:\ws-visualstudeo\CrudEx01\CrudEx01\bin\Debug\DBCadastro.mdf
+C:\ws-visualstudeo\CrudEx01\CrudEx01\bin\Debug\DBCadastro_log.ldf
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.frmLogin.resources
+C:\ws-visualstudeo\CrudEx01\CrudEx01\obj\Debug\CrudEx01.frmCadastro.resources
