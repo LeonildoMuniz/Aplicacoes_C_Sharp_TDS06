@@ -1,0 +1,11 @@
+C:\CadastroFriend\CadastroFriend\bin\Debug\CadastroFriend.exe.config
+C:\CadastroFriend\CadastroFriend\bin\Debug\CadastroFriend.exe
+C:\CadastroFriend\CadastroFriend\bin\Debug\CadastroFriend.pdb
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.csprojAssemblyReference.cache
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.frmCadastro.resources
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.Properties.Resources.resources
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.csproj.GenerateResource.cache
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.exe
+C:\CadastroFriend\CadastroFriend\obj\Debug\CadastroFriend.pdb
+C:\CadastroFriend\CadastroFriend\bin\Debug\DBAmigos.mdf
+C:\CadastroFriend\CadastroFriend\bin\Debug\DBAmigos_log.ldf
