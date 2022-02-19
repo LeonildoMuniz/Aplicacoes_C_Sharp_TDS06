@@ -1,0 +1,11 @@
+C:\ResolucaoExec\ResolucaoExec\bin\Debug\ResolucaoExec.exe.config
+C:\ResolucaoExec\ResolucaoExec\bin\Debug\ResolucaoExec.exe
+C:\ResolucaoExec\ResolucaoExec\bin\Debug\ResolucaoExec.pdb
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.csprojAssemblyReference.cache
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.FormPrincipal.resources
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.Properties.Resources.resources
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.csproj.GenerateResource.cache
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.exe
+C:\ResolucaoExec\ResolucaoExec\obj\Debug\ResolucaoExec.pdb
+C:\ResolucaoExec\ResolucaoExec\bin\Debug\DBFriend.mdf
+C:\ResolucaoExec\ResolucaoExec\bin\Debug\DBFriend_log.ldf
