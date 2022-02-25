@@ -1,0 +1,11 @@
+C:\CRUD_Restaurante\CRUD_Restaurante\bin\Debug\CRUD_Restaurante.exe.config
+C:\CRUD_Restaurante\CRUD_Restaurante\bin\Debug\CRUD_Restaurante.exe
+C:\CRUD_Restaurante\CRUD_Restaurante\bin\Debug\CRUD_Restaurante.pdb
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.csprojAssemblyReference.cache
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.FrmPrincipal.resources
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.Properties.Resources.resources
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.csproj.GenerateResource.cache
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.exe
+C:\CRUD_Restaurante\CRUD_Restaurante\obj\Debug\CRUD_Restaurante.pdb
+C:\CRUD_Restaurante\CRUD_Restaurante\bin\Debug\BDClientes.mdf
+C:\CRUD_Restaurante\CRUD_Restaurante\bin\Debug\BDClientes_log.ldf
