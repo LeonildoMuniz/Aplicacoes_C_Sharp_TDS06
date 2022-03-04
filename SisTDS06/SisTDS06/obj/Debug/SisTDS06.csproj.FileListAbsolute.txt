@@ -1,0 +1,13 @@
+C:\SisTDS06\SisTDS06\bin\Debug\DbSis.mdf
+C:\SisTDS06\SisTDS06\bin\Debug\DbSis_log.ldf
+C:\SisTDS06\SisTDS06\bin\Debug\SisTDS06.exe.config
+C:\SisTDS06\SisTDS06\bin\Debug\SisTDS06.exe
+C:\SisTDS06\SisTDS06\bin\Debug\SisTDS06.pdb
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.csprojAssemblyReference.cache
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.FormLogin.resources
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.FormSplash.resources
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.Properties.Resources.resources
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.csproj.GenerateResource.cache
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.exe
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.pdb
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.FormPrincipal.resources
