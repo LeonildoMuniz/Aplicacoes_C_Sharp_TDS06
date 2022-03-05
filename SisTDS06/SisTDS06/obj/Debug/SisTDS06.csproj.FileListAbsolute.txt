@@ -11,3 +11,4 @@ C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.csproj.GenerateResource.cache
 C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.exe
 C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.pdb
 C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.FormPrincipal.resources
+C:\SisTDS06\SisTDS06\obj\Debug\SisTDS06.FormUsuario.resources

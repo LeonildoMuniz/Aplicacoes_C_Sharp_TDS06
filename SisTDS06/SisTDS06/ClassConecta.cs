@@ -16,13 +16,15 @@ namespace SisTDS06
         public static SqlConnection ObterConexao()
         {
             con = new SqlConnection(str);
+
             if (con.State == ConnectionState.Open)
             {
                 con.Close();
             }
+
             try
             {
-                con.Open();
+               con.Open();
             }
             catch (SqlException sqle)
             {

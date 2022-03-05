@@ -44,7 +44,7 @@
             this.btnLogar.Location = new System.Drawing.Point(48, 199);
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(120, 41);
-            this.btnLogar.TabIndex = 0;
+            this.btnLogar.TabIndex = 3;
             this.btnLogar.Text = "Login";
             this.btnLogar.UseVisualStyleBackColor = false;
             this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
@@ -66,7 +66,7 @@
             this.txtNome.Location = new System.Drawing.Point(49, 50);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(320, 29);
-            this.txtNome.TabIndex = 2;
+            this.txtNome.TabIndex = 1;
             // 
             // txtSenha
             // 
@@ -75,7 +75,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(320, 29);
-            this.txtSenha.TabIndex = 4;
+            this.txtSenha.TabIndex = 2;
             // 
             // lblSenha
             // 
@@ -96,7 +96,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(248, 199);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(120, 41);
-            this.btnCancelar.TabIndex = 5;
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);

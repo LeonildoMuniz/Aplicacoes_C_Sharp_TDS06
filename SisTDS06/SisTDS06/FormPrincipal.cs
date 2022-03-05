@@ -21,5 +21,14 @@ namespace SisTDS06
         {
             Application.Exit();
         }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            FormUsuario usuario = new FormUsuario();
+            usuario.Show();
+
+
+        }
     }
 }
