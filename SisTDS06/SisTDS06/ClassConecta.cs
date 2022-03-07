@@ -10,7 +10,7 @@ namespace SisTDS06
 {
     class ClassConecta
     {
-        private static string str = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\SisTDS06\SisTDS06\DbSis.mdf;Integrated Security=True";
+        private static string str = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\SisTDS06\SisTDS06\Properties\DbSis.mdf;Integrated Security=True";
         private static SqlConnection con = null;
 
         public static SqlConnection ObterConexao()

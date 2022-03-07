@@ -46,6 +46,7 @@ namespace SisTDS06
                     this.Hide();
                     FormPrincipal pri = new FormPrincipal();
                     pri.Show();
+                    pri.lblUser.Text = txtNome.Text;
                     ClassConecta.FecharConexao();
                 }
                 else

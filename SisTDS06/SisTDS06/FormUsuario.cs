@@ -37,73 +37,22 @@ namespace SisTDS06
 
         private void btnBusca_Click(object sender, EventArgs e)
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://viacep.com.br/ws/" + txtCep.Text + "/json");
-            request.AllowAutoRedirect = false;
-            HttpWebResponse ChecaServidor = (HttpWebResponse)request.GetResponse();
-            if (ChecaServidor.StatusCode != HttpStatusCode.OK)
+            string[] valores = new string[4];
+            BuscaCEP busca = new BuscaCEP();
+            valores = busca.CEP(txtCep.Text);
+
+            if (valores is null)
             {
-                MessageBox.Show("Servidor Indisponível!");
-                return; //Sai da rotina e para e codificação
+                MessageBox.Show("ERRO ao localizar CEP", "Erro de busca", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            using (Stream webStream = ChecaServidor.GetResponseStream())
+            else
             {
-                if (webStream != null)
-                {
-                    using (StreamReader responseReader = new StreamReader(webStream))
-                    {
-                        string response = responseReader.ReadToEnd();
-                        response = Regex.Replace(response, "[{},]", string.Empty);
-                        response = response.Replace("\"", "");
-
-                        String[] substrings = response.Split('\n');
-
-                        int cont = 0;
-                        foreach (var substring in substrings)
-                        {
-                            if (cont == 1)
-                            {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                if (valor[0] == "  erro")
-                                {
-                                    MessageBox.Show("CEP não encontrado!");
-                                    txtCep.Focus();
-                                    return;
-                                }
-                            }
-
-                            //Endereço
-                            if (cont == 2)
-                            {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                txtEndereco.Text = valor[1];
-                            }
-
-                            //Complemento
-                            if (cont == 3)
-                            {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                txtComplemento.Text = valor[1];
-                            }
-
-                            //Bairro
-                            if (cont == 4)
-                            {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                txtBairro.Text = valor[1];
-                            }
-
-                            //Cidade
-                            if (cont == 5)
-                            {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                txtCidade.Text = valor[1];
-                            }
-                            cont++;
-                        }
-                    }
-
-                }
+                txtEndereco.Text = valores[0];
+                txtBairro.Text = valores[2];
+                txtCidade.Text = valores[3];
+                txtComplemento.Text = valores[1];
             }
+
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
@@ -136,6 +85,53 @@ namespace SisTDS06
             txtSenha.Text = "";
             dateAdm.Value = DateTime.Now;
             dateNasc.Value = DateTime.Now;
+        }
+
+        private void btnLocalizar_Click(object sender, EventArgs e)
+        {
+           
+            
+            Usuario at = new Usuario();
+            string[] inf = new string[12];
+            inf = at.Localiza(Convert.ToInt32(txtId.Text));
+
+            if (inf is null)
+            {
+                MessageBox.Show("Erro ao localizar contato, revise os dados", "Erro de busca", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNome.Text = "";
+                txtBairro.Text = "";
+                txtCelular.Text = "";
+                txtCep.Text = "";
+                txtCidade.Text = "";
+                txtComplemento.Text = "";
+                txtEmail.Text = "";
+                txtEndereco.Text = "";
+                txtFuncao.Text = "";
+                txtId.Text = "";
+                txtLogin.Text = "";
+                txtSenha.Text = "";
+                dateAdm.Value = DateTime.Now;
+                dateNasc.Value = DateTime.Now;
+                txtNome.Focus();
+            }
+            else
+            {
+                txtNome.Text = inf[0].Trim();
+                txtLogin.Text = inf[1].Trim();
+                txtSenha.Text = inf[2].Trim();
+                txtCelular.Text = inf[3].Trim();
+                dateNasc.Value = Convert.ToDateTime(inf[4]);
+                dateAdm.Value = Convert.ToDateTime(inf[5]);
+                txtEndereco.Text = inf[6].Trim();
+                txtCidade.Text = inf[7].Trim();
+                txtBairro.Text = inf[8].Trim();
+                txtEmail.Text = inf[9].Trim();
+                txtCep.Text = inf[10].Trim();
+                txtFuncao.Text = inf[11].Trim();
+                txtComplemento.Text = inf[12].Trim();
+            }
+
+
         }
     }
 }

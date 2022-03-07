@@ -32,12 +32,13 @@
             // 
             // FormSplash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::SisTDS06.Properties.Resources.TDS06_SIS;
-            this.ClientSize = new System.Drawing.Size(495, 412);
+            this.BackgroundImage = global::SisTDS06.Properties.Resources.tds06_sistema_de_vendas2;
+            this.ClientSize = new System.Drawing.Size(647, 580);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSplash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormSplash";

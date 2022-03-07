@@ -30,5 +30,12 @@ namespace SisTDS06
 
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormLogin login = new FormLogin();
+            login.Show();
+        }
     }
 }
